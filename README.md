@@ -21,3 +21,15 @@
 -  python manage.py runserver
 
 
+# Create Apps
+## Django Admin create App
+- django-admin startapp profiles
+
+## Django Migrate
+- python manage.py makemigrations
+- python manage.py migrate
+
+
+## Django create super users
+- python manage.py createsuperuser
+
