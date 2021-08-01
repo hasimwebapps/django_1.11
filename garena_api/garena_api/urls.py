@@ -5,7 +5,7 @@ from django.contrib import admin
 
 urlpatterns = [
     # Examples:
-    # url(r'^$', 'mywebsite.views.home', name='home'),
+    # url(r'^$', 'garena_api.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     # url(r'^profiles/', views.views, name='profiles'),
     url(r'^api/tools/', include('profiles.urls')),
