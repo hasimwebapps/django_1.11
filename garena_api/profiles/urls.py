@@ -1,17 +1,12 @@
 # coding: utf8
-import django
+from django.conf.urls import url
 
-try:
-    from django.conf.urls.defaults import url
-except:
-    from django.conf.urls import url
-from django.conf import settings
-from django.conf.urls.static import static
-
-from .views import show
+from .views import user_list, user_add, user_login
 
 urlpatterns = [
 
-    url(r'ping', show),
+    url(r'list', user_list),
+    url(r'add', user_add),
+    url(r'login', user_login),
 
 ]

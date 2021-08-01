@@ -33,3 +33,8 @@
 ## Django create super users
 - python manage.py createsuperuser
 
+
+## API Specs
+# Users
+- User list - http://127.0.0.1:8000/api/users/list
+
